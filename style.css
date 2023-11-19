@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+    padding-left: 140px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+    margin: 0px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+    margin: 0px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
+
+
+.header {
+    background: var(--white, #FFF);
+    height: 110px;
+    width: auto;
+    border-bottom: 1px #A1A6B4 solid;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 140px 15px;
+    
+}
+
+.header_logo {
+    width: 212px;
+}
+
+.header_list {
+    display: flex;
+    gap: 24px;
+}
+.header_list_item {
+    list-style: none;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+body {
+    background: #F1F1F1;
+}
+
+.main_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 0px 24px;
+    
+}
+
+.sneaker {
+    background: #ffff;
+    border-radius: 15px;
+    width: 371px;
+    
+}
+.card_text {
+    padding: 23px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    }
+.footer {
+    background: var(--black, #121723);
+    height: 142px;
+    }
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 140px 32px;
+    /*border-bottom: 1px rgba(230, 232, 236, 0.40) solid;*/
+}
+
+.footer_logo {
+    width: 300px;
+}
+
+.footer_list {
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+}
+.footer_list_item {
+    list-style: none;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.footer_divider {
+    justify-content: center;
+    margin: 0px 140px;
+    height: 1px;
+    border: none;
+    background-color: rgba(230, 232, 236, 0.40);   
+}
+
+.footer_text {
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0px 21px;
+    margin: 0px;
+
+}
+
+.body {
+    margin: 0px;
+}
